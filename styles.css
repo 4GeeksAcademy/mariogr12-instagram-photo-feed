@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+.box{
+    margin:0;
+    margin-bottom: 50px;
+}
+
+.wrapper{
+    position: absolute;
+    margin: 0;
+    background-color: lightgrey;
+    width: 100%;
+
+}
+
+.header{
+    background-color: white;
+    width: 100%;
+}
+.header h1{
+    margin-top: 0;
+    text-align: center;
+    padding: 5px;
+}
+
+.body{
+    margin: auto;
+    width: 500px;
+    height: auto;
+    background-color: transparent;
+}
+
+.publicacion{
+    background-color: white;
+    width: 500px;
+    height: auto;
+}
+.publicacion img{
+    height: 100%;
+    width: 100%;
+}
+
+.publicacion .tituloyFecha{
+    display: flex;
+}
+
+.publicacion .tituloyFecha .tituloFoto{
+    font-weight: bold;
+}
+
+.publicacion .fechaFoto{
+margin-left: auto;
+}
+
+.tituloFoto,
+.fechaFoto,
+.pieFoto{
+    font-size:18px;
+    padding: 5px;
+    margin: 0;
+}
+
+
