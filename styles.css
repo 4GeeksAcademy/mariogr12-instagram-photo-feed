@@ -1,4 +1,5 @@
 body{
+    background-color: lightgrey;
     margin: 0;
 }
 
@@ -8,11 +9,7 @@ body{
 }
 
 .wrapper{
-    position: absolute;
-    margin: 0;
-    background-color: lightgrey;
     width: 100%;
-
 }
 
 .header{
@@ -28,7 +25,6 @@ body{
 .body{
     margin: auto;
     width: 500px;
-    height: auto;
     background-color: transparent;
 }
 
@@ -61,5 +57,9 @@ margin-left: auto;
     padding: 5px;
     margin: 0;
 }
-
+.pieFoto a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
 
